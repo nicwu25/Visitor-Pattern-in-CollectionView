@@ -53,11 +53,7 @@ protocol ChatRoomMessageVisitor {
     associatedtype T
     func visit(_ viewObject: CreateInfoViewObject) -> T?
     func visit(_ viewObject: CommentInfoViewObject) -> T?
-    func visit(_ viewObject: ContentViewObject) ->T?
-    func visit(_ viewObject: LinkViewObject) -> T?
-    func visit(_ viewObject: PhotoViewObject) -> T?
-    func visit(_ viewObject: EmojiViewObject) -> T?
-    func visit(_ viewObject: DateViewObject) -> T?
+    // ...
 }
 
 struct ChatRoomMessageCellConfiguratorVisitor: ChatRoomMessageVisitor {
