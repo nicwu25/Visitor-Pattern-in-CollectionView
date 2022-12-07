@@ -20,9 +20,9 @@
 ```swift
 func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     
-    guard let sectionKind = viewModel.getSectionLayoutKind(section: indexPath.section) else { return UICollectionViewCell() }
+    guard let itemLayoutKind = viewModel.getItemLayoutKind(indexPath: indexPath) else { return UICollectionViewCell() }
     
-    switch sectionKind {
+    switch itemLayoutKind {
         case .creatorInfo:
             // ...
         case .commentInfo:
