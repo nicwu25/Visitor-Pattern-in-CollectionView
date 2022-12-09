@@ -4,7 +4,7 @@
 [Visitor Pattern in Swift](https://glow-harmony-176.notion.site/Visitor-839050ce78f742c7a520716d77fe6b81)
 
 ## 需求
-![截圖 2022-12-07 上午11 14 31](https://user-images.githubusercontent.com/36924807/206079696-5970b2f9-6d90-4223-9005-f1ddea345f44.png)
+<img src="https://user-images.githubusercontent.com/36924807/206606884-07afff0d-4860-4449-836f-c5ca0eead4aa.png" width=35% height=35%>
 
 一個聊天室畫面，用 **Collection View** 實現，並且一則訊息由不同的區塊組成：
 
